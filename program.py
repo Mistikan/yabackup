@@ -68,11 +68,7 @@ def filezal(i,papoh):
         for g in range(0,len(stroka)):#Цикл по буквам
             file.write(bytes([int(insimvol(stroka[g]))]))
 
-def popitka(popi):
-        webdav.mkdir(popi)
-
-
-        
+ 
 import easywebdav
 import os
 import urllib
